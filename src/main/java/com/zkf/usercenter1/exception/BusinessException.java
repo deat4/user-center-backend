@@ -2,14 +2,11 @@ package com.zkf.usercenter1.exception;
 
 import com.zkf.usercenter1.common.ErrorCode;
 
-import java.io.Serial;
 
 /**
  * 自定义异常
  */
 public class BusinessException extends RuntimeException {
-    @Serial
-    private static final long serialVersionUID = -2682670631717854638L;
 
     private final int code;
 

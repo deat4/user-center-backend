@@ -1,4 +1,4 @@
-FROM maven:3.8.1-openjdk-21-slim as builder
+FROM maven:3.8.1-openjdk-17-slim as builder
 
 # Copy local code to the container image.
 WORKDIR /app

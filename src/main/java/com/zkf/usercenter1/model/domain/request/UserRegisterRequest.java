@@ -3,7 +3,6 @@ package com.zkf.usercenter1.model.domain.request;
 
 import lombok.Data;
 
-import java.io.Serial;
 import java.io.Serializable;
 
 /**
@@ -16,8 +15,7 @@ import java.io.Serializable;
 public class UserRegisterRequest implements Serializable {
 
 
-    @Serial
-    private static final long serialVersionUID = 8425166609489122420L;
+    private static final long serialVersionUID = 3191241716373120793L;
 
     private String userAccount;
 

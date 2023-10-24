@@ -3,9 +3,9 @@ spring:
     name: user-center
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: 'jdbc:mysql://111.229.36.79:3306/zkf_online_database'
+    url: jdbc:mysql://111.229.36.79:3306/deat4
     username: root
-    password: s82650287@ZKF
+    password: 123456
     #失效时间
   session:
     timeout: 86400

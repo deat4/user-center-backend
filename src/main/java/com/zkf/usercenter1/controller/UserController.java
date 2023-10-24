@@ -9,10 +9,11 @@ import com.zkf.usercenter1.model.domain.User;
 import com.zkf.usercenter1.model.domain.request.UserLoginRequest;
 import com.zkf.usercenter1.model.domain.request.UserRegisterRequest;
 import com.zkf.usercenter1.service.UserService;
-import jakarta.annotation.Resource;
-import jakarta.servlet.http.HttpServletRequest;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.web.bind.annotation.*;
+
+import javax.annotation.Resource;
+import javax.servlet.http.HttpServletRequest;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -26,6 +27,7 @@ import static com.zkf.usercenter1.contant.UserConstant.USER_LOGIN_STATE;
  * @author zkf
  */
 @RestController
+@CrossOrigin
 @RequestMapping("/user")
 public class UserController {
 
